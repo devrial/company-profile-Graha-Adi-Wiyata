@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import Service from "./pages/Service/Service";
 import Contact from "./pages/Contact/Contact";
 import Testimonial from "./pages/Testimonial/Testimonial";
+import "./App.scss"
 
 import Navbar from "./components/Navbar/Navbar";
 
