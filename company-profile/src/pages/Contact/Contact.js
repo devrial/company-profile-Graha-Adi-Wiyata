@@ -10,18 +10,12 @@ const Contact = () => {
       <div className="lp-content-left">
         <div className="lp-cl-container">
           <div className="lp-cl-content">
-           <p>Ada yang bisa kami bantu?</p>
+           <h1 className="titleHeader">Ada yang bisa kami bantu?</h1>
+           <span>tes</span>
           </div>
         </div>
       </div>
     </div>
-
-
-    // <div className="container">
-    //   <h1 className="text-center" style={{ padding: '30%' }}>
-    //       Contact
-    //   </h1>
-    // </div>
   );
 }
 
