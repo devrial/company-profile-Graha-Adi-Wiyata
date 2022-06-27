@@ -13,16 +13,23 @@
 }
 
 .lp-cl-container {
-    width: 100%;
-    height: 30%;
-    display: flex;
     justify-content: center;
     background-color: #f3f4f5;
 }
 
 .lp-cl-content {
-    width: 90%;
-    height: 100%;
+    height: auto;
+}
+
+.content-top {
+    background-color: #f3f4f5;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.content-next {
+    height: auto;
+    padding: 1.5rem;
 }
 
 .lp-cl-content > .titleHeader {
