@@ -17,10 +17,18 @@ const Contact = () => {
           <div className="p-mt-3 container">
             <div className="p-grid p-justify-between">
               <div className="p-col-4">
-                <div className="box">2</div>
+                <div className="box">
+                  <p>BCA Digital</p>
+                  <p>Terima kasih sudah mampir! Jika kamu memiliki pertanyaan seputar BCA Digital, hubungi kami melalui kontak di laman ini.</p>
+                </div>
               </div>
               <div className="p-col-4">
-                <div className="box">4</div>
+                <div className="box">
+                  <p>Kantor Pusat BCA Digital</p>
+                  <p>The City Tower Lantai 11,
+                    Jl. M.H. Thamrin No.81,
+                    Jakarta Pusat, Indonesia 10310</p>
+                </div>
               </div>
             </div>
           </div>
