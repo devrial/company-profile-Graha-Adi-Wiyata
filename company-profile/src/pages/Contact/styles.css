@@ -22,9 +22,11 @@
 }
 
 .content-top {
-    background-color: #f3f4f5;
-    height: auto;
     padding: 1.5rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .content-next {
