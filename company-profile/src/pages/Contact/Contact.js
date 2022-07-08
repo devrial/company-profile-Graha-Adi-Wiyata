@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { InputText } from 'primereact/inputtext';
+import { Card } from 'primereact/card';
 
 import "./styles.css"
 
@@ -12,40 +12,26 @@ const Contact = () => {
         <div className="layout-content">
           <div className="content-top">
             <h1 className="titleHeader">Contact Us</h1>
-            <h4 className="p-text-bold">Question not answered yet? We are here to help!</h4>
+            <h6 className="p-text-bold">Question not answered yet? We are here to help!</h6>
+          </div>
+          <div className="contact-section">
+            <Card className="card-contact">
+              <div class="grid" style={{ 'alignItems': 'center' }}>
+                <div class="col-1">
+                  <i className='pi pi-whatsapp' style={{'fontSize': '2em'}} />
+                </div>
+                <div class="col-9">
+                  <h5>Whatsapp</h5>
+                  <span>081904611971</span>
+                </div>
+                <div class="col-2">3</div>
+              </div>
+              {/* <p>Help Center Got questions? We've got answers</p> */}
+            </Card>
           </div>
         </div>
       </div>
     </div>
-
-    // <div className="layout-wrapper">
-    //   <div className="layout-main" style={{ marginLeft: 'auto' }}>
-    //     <div className="layout-content">
-    //       <div className="content-top">
-    //         <h1 className="titleHeader">Ada yang bisa kami bantu?</h1>
-    //         <span className="p-text-bold">CONSULTANT CONSTRUCTOR</span>
-    //       </div>
-    //       <div className="p-mt-3 container">
-    //         <div className="p-grid p-justify-between">
-    //           <div className="p-col-4">
-    //             <div className="box">
-    //               <p>BCA Digital</p>
-    //               <p>Terima kasih sudah mampir! Jika kamu memiliki pertanyaan seputar BCA Digital, hubungi kami melalui kontak di laman ini.</p>
-    //             </div>
-    //           </div>
-    //           <div className="p-col-4">
-    //             <div className="box">
-    //               <p>Kantor Pusat BCA Digital</p>
-    //               <p>The City Tower Lantai 11,
-    //                 Jl. M.H. Thamrin No.81,
-    //                 Jakarta Pusat, Indonesia 10310</p>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 
