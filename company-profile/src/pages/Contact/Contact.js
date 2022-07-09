@@ -27,18 +27,6 @@ const Contact = () => {
                 <div class="col-3">Chat sekarang</div>
               </div>
             </Card>
-            <Card className="card-contact">
-              <div class="grid" style={{ 'alignItems': 'center' }}>
-                <div class="col-1">
-                  <i className='pi pi-whatsapp' style={{'fontSize': '2em'}} />
-                </div>
-                <div class="col-8">
-                  <h5>Telegram</h5>
-                  <span>081904611971</span>
-                </div>
-                <div class="col-3">Chat sekarang</div>
-              </div>
-            </Card>
           </div>
         </div>
       </div>
