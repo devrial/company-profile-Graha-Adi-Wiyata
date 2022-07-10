@@ -10,15 +10,27 @@ const Contact = () => {
     {
       header: "Whatsapp",
       subheader: "081904611971",
-      labelAction: "Chat sekarang",
+      labelAction: "Message us >",
       icon: "pi-whatsapp"
     },
     {
       header: "Telegram",
       subheader: "081904611971",
-      labelAction: "Chat sekarang",
+      labelAction: "Message us >",
       icon: "pi-telegram"
     },
+    {
+      header: "Email",
+      subheader: "dev.sahrial@gmail.com",
+      labelAction: "Contact us >",
+      icon: "pi-email"
+    },
+    {
+      header: "Facebook Messenger",
+      subheader: "Muhammad Sahrial",
+      labelAction: "Message us >",
+      icon: "pi-email"
+    }
   ]
 
   return (
