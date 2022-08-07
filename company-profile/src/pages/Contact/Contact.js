@@ -23,13 +23,13 @@ const Contact = () => {
       header: "Email",
       subheader: "dev.sahrial@gmail.com",
       labelAction: "Contact us >",
-      icon: "pi-email"
+      icon: "pi-envelope"
     },
     {
       header: "Facebook Messenger",
       subheader: "Muhammad Sahrial",
       labelAction: "Message us >",
-      icon: "pi-email"
+      icon: "pi-facebook"
     }
   ]
 
