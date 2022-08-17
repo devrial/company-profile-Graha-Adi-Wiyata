@@ -1,0 +1,46 @@
+body{
+
+    background-color: #eee;
+}
+
+
+.testimonials{
+
+    height: 100vh;
+}
+
+
+.card{
+
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+  
+}
+span{
+    color: #db558d;;
+}
+
+.about{
+
+    background-color: #940641;;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border:0;
+
+}
+
+.col-md-4{
+    margin-bottom: 100px;
+}
+
+.about img{
+    margin-top: -68px;
+    border: 5px solid white;
+}
+
+@media(max-width:768px){
+    .card{
+        height: 300px;
+    }
+}
