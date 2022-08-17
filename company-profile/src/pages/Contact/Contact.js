@@ -10,13 +10,13 @@ const Contact = () => {
     {
       header: "Whatsapp",
       subheader: "081904611971",
-      labelAction: "Message us >",
+      labelAction: "Contact us >",
       icon: "pi-whatsapp"
     },
     {
       header: "Telegram",
       subheader: "081904611971",
-      labelAction: "Message us >",
+      labelAction: "Contact us >",
       icon: "pi-telegram"
     },
     {
@@ -28,7 +28,7 @@ const Contact = () => {
     {
       header: "Facebook Messenger",
       subheader: "Muhammad Sahrial",
-      labelAction: "Message us >",
+      labelAction: "Contact us >",
       icon: "pi-facebook"
     }
   ]
